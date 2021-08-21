@@ -24,7 +24,7 @@ const errorMessage = (student) => {
 };
 
 const sortStudentsByHouse = (array) => {
-  return array.sort((a, b) => a.house > b.house ? 1 : -1);
+  array.sort((a, b) => (a.house > b.house ? 1 : -1));
 };
 
 const sortingHatData = () => {
